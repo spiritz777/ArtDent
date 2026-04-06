@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArtDent – Заманауи Стоматология</title>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <img src="logo.jpg" alt="ArtDent Logo" class="header-logo-img">
+                ArtDent
+            </a>
+            <div class="header-address">
+                <i class="fa-solid fa-location-dot"></i> Левый берег 18 | Мерей 18А
+            </div>
+            <nav class="nav">
+                <a href="#prices" class="nav-link">Бағалар</a>
+                <a href="#contact" class="nav-link">Байланыс</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="container hero-container animate-on-scroll">
+            <h1 class="hero-title">ArtDent – Жаңа деңгейдегі стоматология</h1>
+            <p class="hero-subtitle">Сапалы емдеу және қолжетімді бағалар. Күлімсіреуіңізді кәсіби мамандарға
+                тапсырыңыз.</p>
+            <div class="hero-buttons">
+                <a href="#prices" class="btn btn-primary">Бағаларды көру</a>
+                <a href="#contact" class="btn btn-secondary">WhatsApp-қа жазу</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Prices Section -->
+    <section class="prices section" id="prices">
+        <div class="container animate-on-scroll">
+            <h2 class="section-title">Біздің қызметтер мен бағалар</h2>
+            <p class="section-subtitle">Жасырын төлемдерсіз ашық бағалар</p>
+
+            <div id="prices-container" class="prices-grid">
+                <!-- Prices will be loaded here dynamically via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+        <div class="container animate-on-scroll">
+            <h2 class="section-title">Бізбен байланысыңыз</h2>
+            <p class="section-subtitle">Қабылдауға жазылыңыз немесе филиалды таңдаңыз.</p>
+
+            <div class="locations-grid">
+                <!-- Location 1 -->
+                <div class="location-card">
+                    <div class="location-icon"><i class="fa-solid fa-location-dot"></i></div>
+                    <h3>Левый берег 18</h3>
+                    <div class="location-actions">
+                        <a href="https://wa.me/7076001186" target="_blank" rel="noopener noreferrer"
+                            class="btn btn-whatsapp-loc">
+                            <i class="fa-brands fa-whatsapp"></i> WhatsApp
+                        </a>
+                        <a href="https://go.2gis.com/cQ425" target="_blank" rel="noopener noreferrer" class="btn btn-2gis-loc">
+                            <i class="fa-solid fa-map-location-dot"></i> 2ГИС-те ашу
+                        </a>
+                    </div>
+                </div>
+                <!-- Location 2 -->
+                <div class="location-card">
+                    <div class="location-icon"><i class="fa-solid fa-location-dot"></i></div>
+                    <h3>Мерей 18А</h3>
+                    <div class="location-actions">
+                        <a href="https://wa.me/7766001186" target="_blank" rel="noopener noreferrer"
+                            class="btn btn-whatsapp-loc">
+                            <i class="fa-brands fa-whatsapp"></i> WhatsApp
+                        </a>
+                        <a href="https://go.2gis.com/1oVyv" target="_blank" rel="noopener noreferrer" class="btn btn-2gis-loc">
+                            <i class="fa-solid fa-map-location-dot"></i> 2ГИС-те ашу
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-social">
+                <a href="https://www.instagram.com/artdent_kzo?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                    target="_blank" rel="noopener noreferrer" class="btn-instagram">
+                    <i class="fa-brands fa-instagram"></i> Instagram
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 ArtDent. Жаңа деңгейдегі стоматология. </p>
+        </div>
+    </footer>
+
+    <!-- Floating UI Elements -->
+    <a href="#contact" class="floating-btn sticky-whatsapp" aria-label="WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <button id="scroll-to-top" class="floating-btn scroll-to-top" aria-label="Scroll to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="main.js"></script>
+</body>
+
+</html>
