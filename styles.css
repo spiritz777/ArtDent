@@ -553,16 +553,127 @@ a {
         padding: 50px 0;
     }
 
+    .section-title {
+        font-size: 1.8rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .section-subtitle {
+        font-size: 1.05rem;
+        margin-bottom: 2rem;
+    }
+
     .header-container {
-        flex-direction: column;
-        justify-content: center;
-        height: auto;
-        padding: 15px 0;
-        gap: 15px;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 65px;
+        padding: 0 15px;
+    }
+
+    .header-address {
+        display: none;
+    }
+
+    .logo {
+        font-size: 1.3rem;
+    }
+
+    .header-logo-img {
+        height: 40px;
+    }
+
+    .nav {
+        gap: 1.2rem;
+    }
+
+    .nav-link {
+        font-size: 0.95rem;
     }
 
     .hero {
-        padding-top: 120px;
+        padding-top: 110px;
+        padding-bottom: 50px;
+        min-height: auto;
+    }
+
+    .hero-title {
+        font-size: 2.2rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.1rem;
+        margin-bottom: 2rem;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .btn {
+        width: 100%;
+        padding: 14px 20px;
+        font-size: 1.05rem;
+        max-width: 320px;
+        margin: 0 auto;
+    }
+
+    .prices-grid {
+        gap: 1.5rem;
+        grid-template-columns: 1fr;
+    }
+
+    .price-card {
+        padding: 1.5rem;
+    }
+
+    .price-category-title {
+        font-size: 1.3rem;
+        margin-bottom: 1.2rem;
+        padding-bottom: 1rem;
+    }
+
+    .price-item {
+        font-size: 0.95rem;
+    }
+
+    .locations-grid {
+        gap: 1.5rem;
+        grid-template-columns: 1fr;
+        margin-bottom: 2.5rem;
+    }
+
+    .location-card {
+        padding: 2rem 1.5rem;
+    }
+
+    .location-icon {
+        font-size: 2.2rem;
+        margin-bottom: 1rem;
+    }
+
+    .location-card h3 {
+        font-size: 1.2rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .location-actions {
+        gap: 1rem;
+    }
+
+    .btn-whatsapp-loc,
+    .btn-2gis-loc {
+        width: 100%;
+        padding: 14px 16px;
+        font-size: 1rem;
+    }
+
+    .btn-instagram {
+        width: 100%;
+        max-width: 320px;
+        padding: 14px 16px;
+        font-size: 1rem;
     }
 
     .floating-btn {
